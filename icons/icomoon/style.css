@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('/icons/icomoon/fonts/icomoon.eot');
+	src:url('/icons/icomoon/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('/icons/icomoon/fonts/icomoon.woff') format('woff'),
+		url('/icons/icomoon/fonts/icomoon.ttf') format('truetype'),
+		url('/icons/icomoon/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-facebook, .icon-twitter, .icon-camera, .icon-connection, .icon-music, .icon-play, .icon-star, .icon-arch-01 {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-facebook:before {
+	content: "\e000";
+}
+.icon-twitter:before {
+	content: "\e001";
+}
+.icon-camera:before {
+	content: "\e002";
+}
+.icon-connection:before {
+	content: "\e003";
+}
+.icon-music:before {
+	content: "\e004";
+}
+.icon-play:before {
+	content: "\e005";
+}
+.icon-star:before {
+	content: "\e006";
+}
+.icon-arch-01:before {
+	content: "\e007";
+}

@@ -1,0 +1,51 @@
+# Site settings
+title: St.Chicago - Publicly Educated Opinions
+description: > # this means to ignore newlines until "baseurl:"
+  We hope to be a small part of your dinner conversations during the week, as well as a place to turn when you want some spin free information about trending topics.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://stchicago.com" # the base hostname & protocol for your site
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: benjamin@solvm.com
+  facebook: stchicago
+  flickr:
+  github: stchicago
+  instagram: solvm
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: stchicago
+  stackoverflow:
+
+# Your disqus shortname, entering this will enable commenting on posts
+disqus:  stchicago
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-24190198-25
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  sass_dir: _scss
+  style: :compressed # You might prefer to minify using :compressed  :expanded
+
+# Use the following plug-ins
+gems:
+  - jemoji # Emoji please!
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-mentions
+  - jekyll-redirect-from
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
