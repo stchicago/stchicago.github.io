@@ -34,21 +34,9 @@
 .size4of8{width:50%;}
 .size5of8{width:62.5%;}
 .size6of8{width:75%;
-	
+
 	@include bp(bp-sm) {
 			width:100%;
 		}
 }
 .size7of8{width:87.5%;}
-
-
-.lastUnit{
-	display:table-cell;
-	float:none;
-	width:auto;
-	*display:block;
-	*zoom:1;
-	_position:relative;
-	_left:-3px;
-	_margin-right:-3px;
-	}
